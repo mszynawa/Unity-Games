@@ -17,6 +17,7 @@ public class MusicManager : MonoBehaviour {
     {
         audioSource = GetComponent<AudioSource>();
     }
+
     // Update is called once per frame
     void OnLevelWasLoaded(int level)
     {
@@ -30,4 +31,9 @@ public class MusicManager : MonoBehaviour {
             audioSource.Play();
         }
     }
+
+    public void SetVolume(float volume)
+    {
+        audioSource.volume = volume;
+    } 
 }
