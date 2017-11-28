@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 61216303126185434}
   - component: {fileID: 50778256998925240}
   - component: {fileID: 114135224455332810}
+  - component: {fileID: 114921100340367298}
   m_Layer: 0
   m_Name: Fox
   m_TagString: Untagged
@@ -147,7 +148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd18115be9ddfb74eb002d3894d3ba3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentSpeed: 0
 --- !u!114 &114135224455332810
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -159,6 +159,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260a9f238990b2f4dbb0c05e4b89f61f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114921100340367298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1132869242050352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f91c94f1c8ed9d49959fd29e513c756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!212 &212417611605125760
 SpriteRenderer:
   m_ObjectHideFlags: 1

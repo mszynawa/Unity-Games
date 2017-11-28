@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 61559568944760738}
   - component: {fileID: 114917805106503190}
   - component: {fileID: 114405011812305330}
+  - component: {fileID: 114405530139127620}
   m_Layer: 0
   m_Name: Grave Stone
   m_TagString: Untagged
@@ -126,6 +127,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaaa8712705f6094497e3a6412c53a8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114405530139127620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1707641759946590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f91c94f1c8ed9d49959fd29e513c756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 500
 --- !u!114 &114917805106503190
 MonoBehaviour:
   m_ObjectHideFlags: 1
