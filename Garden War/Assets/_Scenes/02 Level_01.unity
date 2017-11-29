@@ -717,15 +717,10 @@ Prefab:
         type: 2}
       propertyPath: projectileParent
       value: 
-      objectReference: {fileID: 1070440425}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a46215c2f13448488648a359282e13c, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1070440425 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1282670937496590, guid: e86b804cdac232c41b260dbf08e5165c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1184060625}
 --- !u!1 &1141298311
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,48 +920,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1001 &1184060625
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4431269047150184, guid: e86b804cdac232c41b260dbf08e5165c, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4431269047150184, guid: e86b804cdac232c41b260dbf08e5165c, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4431269047150184, guid: e86b804cdac232c41b260dbf08e5165c, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4431269047150184, guid: e86b804cdac232c41b260dbf08e5165c, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4431269047150184, guid: e86b804cdac232c41b260dbf08e5165c, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4431269047150184, guid: e86b804cdac232c41b260dbf08e5165c, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4431269047150184, guid: e86b804cdac232c41b260dbf08e5165c, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4431269047150184, guid: e86b804cdac232c41b260dbf08e5165c, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e86b804cdac232c41b260dbf08e5165c, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1186171567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,7 +953,7 @@ Transform:
   - {fileID: 736464092}
   - {fileID: 1288493889}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1288493889 stripped
 Transform:
@@ -1044,7 +997,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4807622314571648, guid: b710d74c8b3f3894d85509d7e63cb325, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b710d74c8b3f3894d85509d7e63cb325, type: 2}
@@ -1527,7 +1480,7 @@ Prefab:
         type: 2}
       propertyPath: projectileParent
       value: 
-      objectReference: {fileID: 1070440425}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb98a66bd9a49c9429ff9431a5eb7f6c, type: 2}
   m_IsPrefabParent: 0
@@ -1574,7 +1527,7 @@ Prefab:
         type: 2}
       propertyPath: projectileParent
       value: 
-      objectReference: {fileID: 1070440425}
+      objectReference: {fileID: 0}
     - target: {fileID: 1367996457663584, guid: 1a46215c2f13448488648a359282e13c, type: 2}
       propertyPath: m_Name
       value: Gnome
