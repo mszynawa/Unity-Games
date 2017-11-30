@@ -262,8 +262,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 340430547}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 567, y: 319, z: 0}
-  m_LocalScale: {x: 0.70875, y: 0.70875, z: 0.70875}
+  m_LocalPosition: {x: 647.5, y: 319, z: 0}
+  m_LocalScale: {x: 0.7088889, y: 0.7088889, z: 0.7088889}
   m_Children:
   - {fileID: 33315790}
   - {fileID: 370246834}
@@ -439,7 +439,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 411577385}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4, y: -18, z: 0}
+  m_LocalPosition: {x: -33.560013, y: -18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 340430551}
@@ -447,8 +447,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -18}
-  m_SizeDelta: {x: 300.1, y: 91.1}
+  m_AnchoredPosition: {x: -33.56, y: -18}
+  m_SizeDelta: {x: 488.28, y: 91.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &411577387
 MonoBehaviour:
@@ -535,7 +535,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: START
+  m_Text: PLAY AGAIN
 --- !u!222 &411577389
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -609,7 +609,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You loose
+  m_Text: You lose!
 --- !u!222 &421299336
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -626,12 +626,12 @@ Prefab:
     - target: {fileID: 224683982904791308, guid: e0ada71bf192f5646a367049c35fc734,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.9190674
+      value: -33.560013
       objectReference: {fileID: 0}
     - target: {fileID: 224683982904791308, guid: e0ada71bf192f5646a367049c35fc734,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -113
+      value: -109.05
       objectReference: {fileID: 0}
     - target: {fileID: 224683982904791308, guid: e0ada71bf192f5646a367049c35fc734,
         type: 2}
@@ -666,17 +666,17 @@ Prefab:
     - target: {fileID: 224683982904791308, guid: e0ada71bf192f5646a367049c35fc734,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 2.9190674
+      value: -33.56
       objectReference: {fileID: 0}
     - target: {fileID: 224683982904791308, guid: e0ada71bf192f5646a367049c35fc734,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -113
+      value: -109.05
       objectReference: {fileID: 0}
     - target: {fileID: 224683982904791308, guid: e0ada71bf192f5646a367049c35fc734,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 300.1
+      value: 488.28
       objectReference: {fileID: 0}
     - target: {fileID: 224683982904791308, guid: e0ada71bf192f5646a367049c35fc734,
         type: 2}
